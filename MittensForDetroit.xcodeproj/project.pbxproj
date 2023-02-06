@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5B12CE298313B300ADDC8D /* Timmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5B12CD298313B300ADDC8D /* Timmer.swift */; };
+		BF5B12E22988755F00ADDC8D /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5B12E12988755F00ADDC8D /* SettingsPage.swift */; };
+		BF5B12E72988812400ADDC8D /* WelcomeScreenEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5B12E62988812400ADDC8D /* WelcomeScreenEdit.swift */; };
+		BF5B12E929895AD000ADDC8D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5B12E829895AD000ADDC8D /* Data.swift */; };
+		BF5B12EB29896CFD00ADDC8D /* Vanilla-Caramel.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF5B12EA29896CFC00ADDC8D /* Vanilla-Caramel.otf */; };
+		BF700080298095A200CAC984 /* MainScreenWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF70007F298095A200CAC984 /* MainScreenWelcome.swift */; };
+		BF7000842980976500CAC984 /* RoundedShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7000832980976500CAC984 /* RoundedShapes.swift */; };
+		BF70008629809B1B00CAC984 /* ImputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF70008529809B1B00CAC984 /* ImputField.swift */; };
+		BF87F1172980DCEB00E8ED4A /* ClockOutCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87F1162980DCEB00E8ED4A /* ClockOutCheck.swift */; };
+		BFC308FC2989C9F000BB6B79 /* NameUserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC308FB2989C9F000BB6B79 /* NameUserRow.swift */; };
+		BFF8B36629808878001754FC /* MittensForDetroitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8B36529808878001754FC /* MittensForDetroitApp.swift */; };
+		BFF8B36829808878001754FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8B36729808878001754FC /* ContentView.swift */; };
+		BFF8B36A29808879001754FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF8B36929808879001754FC /* Assets.xcassets */; };
+		BFF8B36D29808879001754FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF8B36C29808879001754FC /* Preview Assets.xcassets */; };
+		BFF8B3762980890D001754FC /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8B3752980890D001754FC /* LoadingScreen.swift */; };
+		BFF8B37F298091F2001754FC /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8B37E298091F2001754FC /* UserRow.swift */; };
+		BFF8B38429809249001754FC /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8B38329809249001754FC /* MainScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF5B12CD298313B300ADDC8D /* Timmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timmer.swift; sourceTree = "<group>"; };
+		BF5B12E12988755F00ADDC8D /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		BF5B12E62988812400ADDC8D /* WelcomeScreenEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenEdit.swift; sourceTree = "<group>"; };
+		BF5B12E829895AD000ADDC8D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		BF5B12EA29896CFC00ADDC8D /* Vanilla-Caramel.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vanilla-Caramel.otf"; sourceTree = "<group>"; };
+		BF5B12EC29896D7900ADDC8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BF70007F298095A200CAC984 /* MainScreenWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenWelcome.swift; sourceTree = "<group>"; };
+		BF7000832980976500CAC984 /* RoundedShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShapes.swift; sourceTree = "<group>"; };
+		BF70008529809B1B00CAC984 /* ImputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImputField.swift; sourceTree = "<group>"; };
+		BF87F1162980DCEB00E8ED4A /* ClockOutCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockOutCheck.swift; sourceTree = "<group>"; };
+		BFC308FB2989C9F000BB6B79 /* NameUserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameUserRow.swift; sourceTree = "<group>"; };
+		BFC308FD298AC0AD00BB6B79 /* MittensForDetroit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MittensForDetroit.entitlements; sourceTree = "<group>"; };
+		BFF8B36229808878001754FC /* MittensForDetroit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MittensForDetroit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF8B36529808878001754FC /* MittensForDetroitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MittensForDetroitApp.swift; sourceTree = "<group>"; };
+		BFF8B36729808878001754FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFF8B36929808879001754FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF8B36C29808879001754FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFF8B3752980890D001754FC /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		BFF8B37E298091F2001754FC /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
+		BFF8B38329809249001754FC /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF8B35F29808878001754FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF5B12E3298879CB00ADDC8D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BF5B12E12988755F00ADDC8D /* SettingsPage.swift */,
+				BF5B12E62988812400ADDC8D /* WelcomeScreenEdit.swift */,
+				BF5B12E829895AD000ADDC8D /* Data.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		BF87F1152980DCCD00E8ED4A /* ClockOut */ = {
+			isa = PBXGroup;
+			children = (
+				BF87F1162980DCEB00E8ED4A /* ClockOutCheck.swift */,
+			);
+			path = ClockOut;
+			sourceTree = "<group>";
+		};
+		BFC30900298B163200BB6B79 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BF70008529809B1B00CAC984 /* ImputField.swift */,
+				BF7000832980976500CAC984 /* RoundedShapes.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		BFF8B35929808878001754FC = {
+			isa = PBXGroup;
+			children = (
+				BFF8B36429808878001754FC /* MittensForDetroit */,
+				BFF8B36329808878001754FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF8B36329808878001754FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8B36229808878001754FC /* MittensForDetroit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF8B36429808878001754FC /* MittensForDetroit */ = {
+			isa = PBXGroup;
+			children = (
+				BFC308FD298AC0AD00BB6B79 /* MittensForDetroit.entitlements */,
+				BFF8B36529808878001754FC /* MittensForDetroitApp.swift */,
+				BF5B12EC29896D7900ADDC8D /* Info.plist */,
+				BFF8B37729808FED001754FC /* Core */,
+				BFF8B37A2980906A001754FC /* Extensions */,
+				BFF8B37829809013001754FC /* Service */,
+				BFF8B37929809033001754FC /* Utils */,
+				BFF8B36729808878001754FC /* ContentView.swift */,
+				BFF8B36929808879001754FC /* Assets.xcassets */,
+				BF5B12EA29896CFC00ADDC8D /* Vanilla-Caramel.otf */,
+				BFF8B36B29808879001754FC /* Preview Content */,
+			);
+			path = MittensForDetroit;
+			sourceTree = "<group>";
+		};
+		BFF8B36B29808879001754FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8B36C29808879001754FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFF8B37729808FED001754FC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BF5B12E3298879CB00ADDC8D /* Settings */,
+				BFF8B37D298091DD001754FC /* Users */,
+				BFF8B37C29809139001754FC /* Components */,
+				BFF8B37B298090BC001754FC /* MainScreen */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BFF8B37829809013001754FC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BFF8B37929809033001754FC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BFF8B37A2980906A001754FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BFF8B37B298090BC001754FC /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8B38329809249001754FC /* MainScreenView.swift */,
+				BF5B12CD298313B300ADDC8D /* Timmer.swift */,
+				BFF8B3752980890D001754FC /* LoadingScreen.swift */,
+				BF70007F298095A200CAC984 /* MainScreenWelcome.swift */,
+				BFC30900298B163200BB6B79 /* Assets */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		BFF8B37C29809139001754FC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BF87F1152980DCCD00E8ED4A /* ClockOut */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BFF8B37D298091DD001754FC /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				BFF8B37E298091F2001754FC /* UserRow.swift */,
+				BFC308FB2989C9F000BB6B79 /* NameUserRow.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF8B36129808878001754FC /* MittensForDetroit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF8B37029808879001754FC /* Build configuration list for PBXNativeTarget "MittensForDetroit" */;
+			buildPhases = (
+				BFF8B35E29808878001754FC /* Sources */,
+				BFF8B35F29808878001754FC /* Frameworks */,
+				BFF8B36029808878001754FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MittensForDetroit;
+			productName = MittensForDetroit;
+			productReference = BFF8B36229808878001754FC /* MittensForDetroit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF8B35A29808878001754FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BFF8B36129808878001754FC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = BFF8B35D29808878001754FC /* Build configuration list for PBXProject "MittensForDetroit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF8B35929808878001754FC;
+			productRefGroup = BFF8B36329808878001754FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF8B36129808878001754FC /* MittensForDetroit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF8B36029808878001754FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF8B36D29808879001754FC /* Preview Assets.xcassets in Resources */,
+				BF5B12EB29896CFD00ADDC8D /* Vanilla-Caramel.otf in Resources */,
+				BFF8B36A29808879001754FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF8B35E29808878001754FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF8B3762980890D001754FC /* LoadingScreen.swift in Sources */,
+				BF5B12E929895AD000ADDC8D /* Data.swift in Sources */,
+				BF5B12E22988755F00ADDC8D /* SettingsPage.swift in Sources */,
+				BF5B12E72988812400ADDC8D /* WelcomeScreenEdit.swift in Sources */,
+				BFC308FC2989C9F000BB6B79 /* NameUserRow.swift in Sources */,
+				BFF8B36829808878001754FC /* ContentView.swift in Sources */,
+				BF87F1172980DCEB00E8ED4A /* ClockOutCheck.swift in Sources */,
+				BF7000842980976500CAC984 /* RoundedShapes.swift in Sources */,
+				BF5B12CE298313B300ADDC8D /* Timmer.swift in Sources */,
+				BFF8B38429809249001754FC /* MainScreenView.swift in Sources */,
+				BF700080298095A200CAC984 /* MainScreenWelcome.swift in Sources */,
+				BFF8B36629808878001754FC /* MittensForDetroitApp.swift in Sources */,
+				BFF8B37F298091F2001754FC /* UserRow.swift in Sources */,
+				BF70008629809B1B00CAC984 /* ImputField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFF8B36E29808879001754FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFF8B36F29808879001754FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF8B37129808879001754FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MittensForDetroit/MittensForDetroit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MittensForDetroit/Preview Content\"";
+				DEVELOPMENT_TEAM = 47TS9Q8K37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MittensForDetroit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Acadmy.MittensForDetroit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFF8B37229808879001754FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MittensForDetroit/MittensForDetroit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MittensForDetroit/Preview Content\"";
+				DEVELOPMENT_TEAM = 47TS9Q8K37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MittensForDetroit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Acadmy.MittensForDetroit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF8B35D29808878001754FC /* Build configuration list for PBXProject "MittensForDetroit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF8B36E29808879001754FC /* Debug */,
+				BFF8B36F29808879001754FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF8B37029808879001754FC /* Build configuration list for PBXNativeTarget "MittensForDetroit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF8B37129808879001754FC /* Debug */,
+				BFF8B37229808879001754FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF8B35A29808878001754FC /* Project object */;
+}
